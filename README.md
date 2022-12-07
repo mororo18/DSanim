@@ -1,2 +1,2 @@
 # DSanim
-Interactive tool to visualize data structures animations
+Interactive tool to visualize data structures through animations
