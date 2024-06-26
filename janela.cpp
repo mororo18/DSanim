@@ -81,30 +81,28 @@ void setup_pipeline(CustomData & data) {
 
     if (!data.pipeline || !data.source || !data.demuxer || !data.parser || !data.decoder || !data.conv || !data.sink) {
         // one element is not initialized - stop
-        g_print("one element is not initialized\n");
-        /*
+        g_print("The following elements were not initialized:\n");
         if (!data.pipeline) {
-            g_print("pipe");
+            g_print("pipe\n");
         }
         if (!data.source) {
-            g_print("src");
+            g_print("src\n");
         }
         if (!data.demuxer) {
-            g_print("dmux");
+            g_print("dmux\n");
         }
         if (!data.parser) {
-            g_print("parser");
+            g_print("parser\n");
         }
         if (!data.decoder) {
-            g_print("decoder");
+            g_print("decoder\n");
         }
         if (!data.conv) {
-            g_print("conv");
+            g_print("conv\n");
         }
         if (!data.sink) {
-            g_print("sink");
+            g_print("sink\n");
         }
-        */
         exit(-1);
     }
 
