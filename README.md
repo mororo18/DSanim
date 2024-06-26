@@ -10,3 +10,6 @@ sudo apt-get install python3.8 build-essential libgtk-3-dev libgstreamer1.0-dev 
 
 pip3 install manim=0.17.0
 ```
+## Quick note
+
+Most of this code was written in less than a week as a project for a university course. Don't mind the mess. 🫣
